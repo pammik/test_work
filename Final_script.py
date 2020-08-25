@@ -39,9 +39,6 @@ if chck_file:
         stdout_.channel.recv_exit_status()
         lines = stdout_.readlines()[0].rstrip()
         user1.update({"revision": lines})
-    stdin_, stdout_, stderr_ = con_serv.exec_command("cd /bw/test_work && git ver-list --count HEAD")
-    stdout_.channel.recv_exit_status()
-    lines = stdout_.readlines()[0].rstrip()
     con_serv.close()
 else:
     user1.update({"auth_type": "password"})

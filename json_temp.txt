@@ -1,0 +1,1 @@
+[{"vcs_type": "git", "branch": "master", "revivsion": "3", "auth_type": "pass", "hostname": "vm1"}, {"vcs_type": "git", "branch": "master", "revivsion": "5", "auth_type": "key", "hostname": "vm2"}]

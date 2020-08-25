@@ -22,4 +22,4 @@ print(user1["vcs_type"])
 pr.append(user1)
 pr.append(user2)
 
-##json.dump(pr, myfile)
+json.dump(pr, myfile)
