@@ -2,6 +2,7 @@ import paramiko
 import time
 import base64
 import json
+import getpass
 
 user1 = {
     "vcs_type": "",
